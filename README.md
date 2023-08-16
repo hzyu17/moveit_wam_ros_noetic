@@ -25,13 +25,6 @@ Ubuntu18.04 \
    </code>
  * Usage: \
    After creating the neccessary ROS environments and installation of moveit
-   * run the rviz world: 
- 	<code> roslaunch panda_moveit_config demo.launch pipeline:=ompl-chomp </code>
-   * adding obstacles:
-	<code> python ~/ws_moveit/src/moveit_collect_data/scripts/collision_scene.py </code>
-
-   * start the data listener:
-	<code> python ~/ws_moveit/src/moveit_collect_data/scripts/collect_data.py </code>
-   * start sampling node:
-	<code> rosrun moveit_collect_data random_sampling </code>
-
+```
+roslaunch barrett_wam_moveit_config demo.launch
+```
