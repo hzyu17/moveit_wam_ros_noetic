@@ -26,3 +26,8 @@ USE MOVEIT TO COLLECT ROBOT TRAJECTORY DATA
 ```
 roslaunch barrett_wam_moveit_config demo.launch
 ```
+
+* To use panda arm
+```
+roslaunch panda_moveit_config demo.launch
+```
